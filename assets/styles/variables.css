@@ -42,6 +42,7 @@
   --color-darkblue: #047A91;
   --color-yellow: #DECC28;
   --color-light: #E6DED1;
+  --color-lighter: #f2ede7;
   --color-lightest: #fff;
   --color-lighten: rgb(255 255 255 / 20%);
   --color-lighten-strong: rgb(255 255 255 / 50%);
@@ -55,7 +56,7 @@
   /* Functional Colors */
   --interaction-color: var(--color-dark);
   --decoration-color: var(--color-pink);
-  --icon-color: var(--color-blue);
+  --icon-color: var(--color-darker);
   --text-color: var(--color-darker);
   --headline-color: var(--color-darkblue);
   --headline-color-light: var(--color-steingrau);
