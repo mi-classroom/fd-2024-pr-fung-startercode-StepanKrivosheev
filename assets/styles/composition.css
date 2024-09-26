@@ -60,6 +60,27 @@
       padding-left: var(--size-xl);
       margin-left: calc(var(--size-xl) * -1);
     }
+
+    ::placeholder{
+        color: var(--color-lightest);
+      }
+
+    button{
+      box-sizing: border-box;
+      padding: var(--size-m) var(--size-l);
+      border: solid 2px var;
+      border-radius: 2px;
+      margin: var(--size-m);
+      background-color: var(--color-pink);
+    }
+
+    input{
+      display: flex ;
+      width: 100%;
+      padding-top: var(--size-m);
+      border-bottom: 2px solid var(--color-green);
+      font-size: var(--size-m);
+    }
   }
 
   &.with-bg-dark{

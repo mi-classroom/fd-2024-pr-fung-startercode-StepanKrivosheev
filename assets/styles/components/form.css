@@ -3,3 +3,12 @@
 
 /* Form
 ############################################################################ */
+.thema-vorschlagen{   
+    h2{
+        color: var(--color-lightest);
+    }
+   
+    background-color: var(--color-dark);
+    color: var(--color-lightest);
+       
+}
