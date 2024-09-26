@@ -62,8 +62,14 @@
     }
 
     ::placeholder{
-        color: var(--color-lightest);
+            color: var(--color-lightest);
       }
+
+    :focus::placeholder{
+      transform: translateY(-20px) scale(.6);
+      transition: all .3s;
+   
+    }
 
     button{
       box-sizing: border-box;
