@@ -47,6 +47,7 @@ h1 {
   }
 }
 
+
 h2 {
   color: var(--color-darker);
   font-size: calc(var(--size-m) * 1.2);
@@ -72,6 +73,26 @@ h3:has(i[class^="icofont-"]) {
   margin-top: var(--size-xl);
 }
 
+
+summary {
+  color: var(--color-darker);
+  font-size: calc(var(--size-m) * .9);
+  font-weight: var(--fw-bold);
+
+  @media only screen and (width >= 40rem) {
+    font-size: var(--size-l);
+  }
+}
+
+details {
+    & summary {
+        &::before {
+          color: pink
+        }}}
+
+::marker{
+  color: pink;
+}
 
 p {
   margin-bottom: var(--size-xs);
@@ -168,7 +189,7 @@ a:not(.wrap) {
 }
 
 a:not(.wrap).extern::before {
-  color: var(--interaction-color);
+ color: var(--interaction-color);
   content: "open_in_new";
 }
 
